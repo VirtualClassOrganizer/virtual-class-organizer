@@ -13,13 +13,13 @@
                 <li><a href="/index">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li class="active"><a href="/courses">Courses</a></li>
-                <li><a href="/trainers">Mentors</a></li>
+                <li><a href="/teachers">Teachers</a></li>
                 <li><a href="/contact">Contact</a></li>
 
             </ul>
         </nav><!-- .nav-menu -->
 
-        <a type="button" class="btn btn-success btn-round get-started-btn" data-toggle="modal" data-target="#myModal" >LOG IN!</a>
+        <a type="button" class="btn btn-success btn-round get-started-btn" data-toggle="modal" data-target="#myModal" >APPLICATION!</a>
 
     </div>
 </header><!-- End Header -->
