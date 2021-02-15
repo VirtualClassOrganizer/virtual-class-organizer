@@ -33,14 +33,9 @@ public class HomeController {
         return "contact";
     }
 
-    @RequestMapping(value = "/loginStudent", method = RequestMethod.GET)
-    public String showLoginStudent() {
-        return "loginStudent";
-    }
-
-    @RequestMapping(value = "/loginTeacher", method = RequestMethod.GET)
-    public String showLoginTeacher() {
-        return "loginTeacher";
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String showLogin() {
+        return "login";
     }
 
     @PostMapping("/studentlogin")
@@ -77,6 +72,17 @@ public class HomeController {
     @RequestMapping(value = "/create-teacher", method = RequestMethod.GET)
     public String createNewTeacher() {
         return "createTeacher";
+    }
+
+    @RequestMapping(value = "/create-subjects", method = RequestMethod.GET)
+    public String createNewSubject() {
+        return "createSubject";
+    }
+
+
+    @RequestMapping(value = "/student-page", method = RequestMethod.GET)
+    public String showStudentPage() {
+        return "studentPage";
     }
 
 }

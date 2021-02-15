@@ -25,9 +25,9 @@
 </style>
 <div class="login-form pt-5">
 	<form action="/examples/actions/confirmation.php" method="post">
-		<h2 class="text-center">Log in as Student</h2>
+		<h2 class="text-center">Log in!</h2>
 		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Username" required="required">
+			<input type="email" class="form-control" placeholder="Email" required="required">
 		</div>
 		<div class="form-group">
 			<input type="password" class="form-control" placeholder="Password" required="required">

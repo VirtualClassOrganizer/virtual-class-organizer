@@ -89,7 +89,7 @@
             <div class="col-10">
                 <div class="tab-content" id="nav-tabContent">
                     <div class="table-responsive-sm tab-pane fade show active" id="list-application" role="tabpanel" aria-labelledby="list-application-list">
-                        <a href="/view-applications" class="btn btn-block btn-outline-dark">View All Application</a>
+                        <a href="/applicants" class="btn btn-block btn-outline-dark">View All Application</a>
                         <table class="table">
                             <thead class="thead-light">
                               <tr>
@@ -180,7 +180,7 @@
                         </table>
                     </div>
                     <div class="tab-pane fade" id="list-subjects" role="tabpanel" aria-labelledby="list-subjects-list">
-                        <a href="/create-subjects" class="btn btn-block btn-outline-dark">Create Programs</a>
+                        <a href="/create-subjects" class="btn btn-block btn-outline-dark">Create Subjects</a>
                         <table class="table">
                             <thead class="thead-light">
                             <tr>
@@ -222,7 +222,7 @@
 
                     </div>
                     <div class="tab-pane fade" id="list-student" role="tabpanel" aria-labelledby="list-student-list">
-                        <a href="/create-student" class="btn btn-block btn-outline-dark">View All Student</a>
+                        <a href="/students" class="btn btn-block btn-outline-dark">View All Student</a>
                         <table class="table">
                             <thead class="thead-light">
                             <tr>
